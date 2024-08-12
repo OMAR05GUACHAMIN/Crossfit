@@ -1,0 +1,30 @@
+.client-history-pay-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center; /* Centrar los elementos dentro del contenedor */
+}
+
+.client-history-pay-container h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme entre botones */
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Estilo para botón de lista de pagos */
+    border-color: #007bff;
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Estilo para botón de próximos pagos */
+    border-color: #17a2b8;
+}

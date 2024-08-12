@@ -1,0 +1,72 @@
+
+.users-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Un fondo claro para el contenedor */
+  border-radius: 8px; /* Bordes redondeados para el contenedor */
+  box-shadow: 0 2px 4px rgba(212, 45, 45, 0.1); /* Sombra sutil para profundidad */
+}
+
+
+.profile-image-table {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.button-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.pagination li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.pagination li a {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.pagination li.active a {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+
+/* Ajuste del tamaño del icono de búsqueda */
+.input-group-text {
+  padding: 8px 8px 8px 8px; /* Ajustar el padding según sea necesario */
+  font-size: 15px; /* Ajustar el tamaño de la fuente según sea necesario */
+  display:flow-root;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem 0 0 0.25rem; /* Asegura bordes redondeados en la izquierda */
+  border: none;
+  background-color: transparent;
+}
+
+/* Ajuste del campo de búsqueda para que esté alineado con el icono */
+.form-control {
+  height: 38px; /* Asegura que la altura sea consistente */
+  border-radius: 0 0.25rem 0.25rem 0; /* Asegura bordes redondeados en la derecha */
+}
+
+.input-group .form-control {
+  height: calc(1px + 1px); /* Asegura que la altura sea consistente */
+  border-radius: 0 1.25rem 1.25rem 0; /* Asegura bordes redondeados en la derecha */
+  font-size: 1em; /* Ajustar el tamaño del texto */
+  padding-left: 1rem; /* Añade un padding a la izquierda para separar el texto del icono */
+}
+

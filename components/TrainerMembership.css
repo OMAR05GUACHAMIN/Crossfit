@@ -1,0 +1,52 @@
+.trainer-membership-container {
+    margin: 20px auto; /* Centrado y con un margen */
+    padding: 20px; /* Espacio interior */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
+    width: 90%; /* Ancho del contenedor */
+    max-width: 1200px; /* Máximo ancho */
+}
+
+.trainer-membership-container h3 {
+    color: #343a40; /* Color de texto oscuro */
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio después del título */
+}
+
+.table {
+    width: 100%; /* La tabla ocupa todo el ancho del contenedor */
+    margin-bottom: 20px; /* Margen inferior para separar de otros elementos si los hay */
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6; /* Bordes de las celdas */
+    padding: 12px; /* Espacio interior en las celdas */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+.table th {
+    background-color: #e9ecef; /* Fondo de los encabezados de la tabla */
+    color: #495057; /* Color de texto para los encabezados */
+}
+
+.table td {
+    background-color: #ffffff; /* Fondo de las celdas */
+    color: #212529; /* Color de texto para las celdas */
+}
+
+.btn {
+    margin: 5px; /* Margen alrededor de los botones para evitar que se toquen */
+}
+
+.btn-info {
+    color: #fff; /* Texto blanco */
+    background-color: #17a2b8; /* Fondo azul para botones de información */
+    border-color: #17a2b8; /* Borde del mismo color que el fondo */
+}
+
+.btn-danger {
+    color: #fff; /* Texto blanco */
+    background-color: #dc3545; /* Fondo rojo para botones de acciones peligrosas */
+    border-color: #dc3545; /* Borde del mismo color que el fondo */
+}

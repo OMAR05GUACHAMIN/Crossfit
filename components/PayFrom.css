@@ -1,0 +1,32 @@
+.pay-form-modal .modal-header {
+    background-color: #f7f7f7; /* Fondo claro para el encabezado del modal */
+    border-bottom: 1px solid #dee2e6; /* Línea divisoria sutil */
+}
+
+.pay-form-modal .modal-title {
+    color: #495057; /* Color oscuro para el título para mejor contraste */
+}
+
+.pay-form-modal .modal-body {
+    padding: 20px; /* Espaciado adecuado dentro del cuerpo del modal */
+}
+
+.pay-form-modal .form-group {
+    margin-bottom: 15px; /* Espacio entre campos del formulario para evitar apariencia amontonada */
+}
+
+.pay-form-modal .form-control {
+    border-radius: 0.25rem; /* Bordes redondeados suavemente */
+    border: 1px solid #ced4da; /* Borde sutil para los campos de entrada */
+}
+
+.pay-form-modal .btn-primary {
+    width: 100%; /* Hace que el botón ocupe todo el ancho posible para una presencia más destacada */
+    background-color: #007bff; /* Azul brillante estándar de Bootstrap para acciones primarias */
+    border-color: #007bff;
+}
+
+.pay-form-modal .form-control:focus {
+    border-color: #80bdff; /* Borde azul al enfocar para indicar activamente el campo de entrada */
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Sombra sutil para destacar */
+}

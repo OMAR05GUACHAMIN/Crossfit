@@ -1,0 +1,87 @@
+/* src/components/TrainerProfile.css */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #121212;
+    color: white;
+    height: 100vh;
+  }
+  
+  .profile-left {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 2rem;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .profile-menu {
+    margin-top: 2rem;
+  }
+  
+  .profile-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-menu li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .profile-right {
+    flex: 2;
+    max-width: 600px;
+  }
+  
+  .profile-right h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .edit-profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-profile-form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .edit-profile-form input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    color: white;
+  }
+  
+  .edit-profile-form button,
+  .profile-info button {
+    padding: 0.75rem 1.5rem;
+    background-color: #20c997;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .edit-profile-form button:hover,
+  .profile-info button:hover {
+    background-color: #17a2b8;
+  }
+  

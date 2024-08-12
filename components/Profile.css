@@ -1,0 +1,112 @@
+/* Título del perfil */
+.profile-title {
+  font-size: 32px; /* Tamaño más grande */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700; /* Grosor de la fuente */
+  color: #333; /* Cambiar el color del título a gris oscuro */
+  text-transform: uppercase; /* Transformar a mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+  margin-left: 20px; /* Ajusta el espacio a la izquierda */
+}
+
+/* Encabezado del perfil */
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Icono del perfil */
+.profile-icon {
+  font-size: 48px;
+  color: #333; /* Color gris oscuro para el icono */
+  background-color: #fff; /* Fondo blanco para que sea circular */
+  border-radius: 50%; /* Hacerlo circular */
+  padding: 10px;
+  margin-right: 20px; /* Espacio entre el icono y el título */
+}
+
+/* Cuadro del perfil */
+.profile-card {
+  border: 2px solid #ddd; /* Borde gris suave */
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #f8f9fa; /* Fondo gris claro */
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 600px; /* Ajustar el ancho máximo */
+  margin: auto; /* Centrar el cuadro */
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+/* Información del perfil */
+.profile-info p {
+  text-align: left;
+  margin: 10px 0; /* Espaciado entre párrafos */
+  font-size: 16px;
+  color: #333; /* Cambiar el color del texto a gris oscuro */
+}
+
+.profile-info p strong {
+  font-weight: 600;
+  color: #333; /* Cambiar el color del texto a gris oscuro */
+}
+
+/* Estilo para el botón */
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: block; /* Asegura que el botón sea un bloque */
+  margin: 20px auto; /* Centra el botón horizontalmente */
+  text-align: center;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Cambiar el color de las etiquetas a gris oscuro */
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+/* Iconos para etiquetas */
+.profile-info p:before {
+  margin-right: 8px;
+}
+
+.button-container{
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.membership-form-modal .modal-header {
+    background-color: #f7f7f7; /* Fondo para el encabezado del modal */
+    border-bottom: 1px solid #dee2e6;
+}
+
+.membership-form-modal .modal-title {
+    color: #495057; /* Color oscuro para el título */
+}
+
+.membership-form-modal .modal-body {
+    padding: 20px;
+}
+
+.membership-form-modal .form-group {
+    margin-bottom: 15px; /* Espacio entre campos del formulario */
+}
+
+.membership-form-modal .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.membership-form-modal .btn-primary {
+    width: 100%; /* Botón de acción ocupa todo el ancho posible */
+    background-color: #007bff; /* Azul estándar para acciones primarias */
+    border-color: #007bff;
+}
+
+.membership-form-modal .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}

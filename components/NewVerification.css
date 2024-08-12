@@ -1,0 +1,55 @@
+/* src/components/NewVerification.css */
+.verification-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.verification-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.verification-header {
+    margin-bottom: 20px;
+}
+
+.verification-image {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.verification-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.verification-body {
+    font-size: 16px;
+}
+
+.text-green-600 {
+    color: #38a169;
+}
+
+.text-red-600 {
+    color: #e53e3e;
+}
+
+.text-blue-500 {
+    color: #3182ce;
+    text-decoration: none;
+}
+
+.text-blue-500:hover {
+    text-decoration: underline;
+}

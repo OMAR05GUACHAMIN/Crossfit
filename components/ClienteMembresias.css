@@ -1,0 +1,138 @@
+/* src/components/Users.css */
+.users-container {
+    display: flow-root;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    height: 100vh;
+    color:#000000;
+    box-sizing: border-box;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 5px;
+    border: 0.5px solid #000000;
+    text-align: center;
+    color: black; 
+  }
+  
+  .users-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-button,
+  .delete-button,
+  .submit-button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #0878e9;
+    margin-right: 8px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    margin-top: 8px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    max-width: 1200;
+    padding: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  .user-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  h2 {
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  h3 {
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  .new-user-button {
+    align-self: flex-end;
+    margin-bottom: 10px;
+    background-color: #28a745!important;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .new-user-button:hover {
+    background-color: #12be37;
+  }
+  

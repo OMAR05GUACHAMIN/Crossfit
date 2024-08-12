@@ -1,0 +1,88 @@
+.memberships-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.memberships-container h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+/* Añade estilos adicionales para los inputs y formularios dentro de los modales */
+.modal-body .form-group {
+  margin-bottom: 15px;
+}
+
+.modal-body .form-control {
+  box-shadow: none; /* Remueve sombras adicionales para un look más limpio */
+}
+
+.modal-header {
+  background: #007bff;
+  color: #000000;
+}
+
+.modal-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text-black {
+  color: black;
+}
+
+.table td, .table th {
+  color: black; /* Asegúrate de que las letras de la tabla sean negras */
+}
+
+.modal-body p {
+  color: black; /* Asegúrate de que las letras en el modal sean negras */
+}
+
+.input-group-text {
+  font-size: 1.2em; /* Ajustar el tamaño del icono según sea necesario */
+  padding: 0.375rem 0.75rem; /* Ajustar el padding para alinearlo con el campo de búsqueda */
+  height: calc(2.25rem + 2px); /* Asegura que la altura sea consistente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none; /* Remover el borde */
+  background-color: transparent; /* Hacer el fondo transparente */
+  color: black;
+}
+
+.input-group .form-control {
+  height: calc(2.25rem + 2px); /* Asegura que la altura sea consistente */
+  border-radius: 0 0.25rem 0.25rem 0; /* Asegura bordes redondeados en la derecha */
+  font-size: 1em; /* Ajustar el tamaño del texto */
+}
+
+button.dropdown-toggle {
+  color: black;
+}
+
+.pagination .page-link {
+  color: black;
+}
+
+.pagination .page-link:hover {
+  color: black;
+}
+
+.pagination .active .page-link {
+  background-color: 007bff;
+  border-color: 007bff;
+  color: rgb(0, 0, 0);
+}

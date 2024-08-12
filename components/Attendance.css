@@ -1,0 +1,80 @@
+.attendance-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Un fondo claro para el contenedor */
+    border-radius: 8px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 2px 4px rgba(212, 45, 45, 0.1); /* Sombra sutil para profundidad */
+}
+
+.attendance-container h3 {
+    color: #333; /* Color oscuro para el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.users-table {
+    width: 100%; /* Asegura que la tabla use todo el espacio disponible */
+    margin-top: 20px; /* Espacio arriba de la tabla */
+}
+
+/* Estilos para los botones para mantener un look coherente y atractivo */
+.btn-success {
+    background-color: #28a745; /* Verde estándar para acciones 'positivas' */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Azul estándar para acciones primarias */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Rojo estándar para acciones 'peligrosas' */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Azul claro para información adicional */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Amarillo para advertencias o recordatorios */
+}
+
+/* Mejoras visuales para la tabla */
+.table {
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6; /* Bordes sutiles para las celdas */
+    padding: 8px; /* Padding para las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.table th {
+    background-color: #e9ecef; /* Fondo más oscuro para los encabezados */
+    color: #495057; /* Color oscuro para el texto del encabezado */
+}
+
+/* Ajuste del tamaño del icono de búsqueda */
+.input-group-text {
+    padding: 8px 8px 8px 8px; /* Ajustar el padding según sea necesario */
+    font-size: 15px; /* Ajustar el tamaño de la fuente según sea necesario */
+    display:flow-root;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem 0 0 0.25rem; /* Asegura bordes redondeados en la izquierda */
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* Ajuste del campo de búsqueda para que esté alineado con el icono */
+  .form-control {
+    height: 38px; /* Asegura que la altura sea consistente */
+    border-radius: 0 0.25rem 0.25rem 0; /* Asegura bordes redondeados en la derecha */
+  }
+  
+  .input-group .form-control {
+    height: calc(1px + 1px); /* Asegura que la altura sea consistente */
+    border-radius: 0 1.25rem 1.25rem 0; /* Asegura bordes redondeados en la derecha */
+    font-size: 1em; /* Ajustar el tamaño del texto */
+    padding-left: 1rem; /* Añade un padding a la izquierda para separar el texto del icono */
+  }
+  

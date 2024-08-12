@@ -1,0 +1,27 @@
+.clients-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Un fondo claro para el contenedor */
+    border-radius: 8px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para profundidad */
+}
+
+.clients-container h3 {
+    color: #333; /* Color oscuro para el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.table {
+    width: 100%; /* Asegura que la tabla use todo el espacio disponible */
+    margin-top: 20px; /* Espacio arriba de la tabla */
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6; /* Bordes sutiles para las celdas */
+    padding: 8px; /* Padding para las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.btn-success {
+    background-color: #28a745; /* Verde estándar para acciones 'positivas' como registrar */
+}

@@ -1,0 +1,50 @@
+/* src/components/AttendanceTab.css */
+.attendance-container {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .attendance-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .react-calendar {
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .react-calendar__navigation button {
+    color: white;
+  }
+  
+  .react-calendar__tile {
+    color: white;
+  }
+  
+  .react-calendar__tile--now {
+    background: #20c997;
+    color: white;
+  }
+  
+  .react-calendar__tile--active {
+    background: #17a2b8;
+    color: white;
+  }
+  
+  .attended {
+    background-color: #20c997 !important;
+    color: white !important;
+  }
+  
+  .attendance-counter {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    text-align: center;
+  }
+  

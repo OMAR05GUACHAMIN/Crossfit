@@ -1,0 +1,74 @@
+/* src/components/Contact.css */
+.contact-container {
+    padding: 2rem;
+    color: white;
+    background-color: #121212;
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .contact-info {
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 2rem; /* Separación entre la información y la imagen */
+  }
+  
+  .contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .contact-info i {
+    margin-right: 0.5rem;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 400px; /* Tamaño máximo de la imagen */
+  }
+  
+  .contact-map {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-map iframe {
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    border-radius: 8px;
+  }
+  

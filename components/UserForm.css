@@ -1,0 +1,47 @@
+/* src/components/UserForm.css */
+
+.modal-title {
+  color: rgb(255, 255, 255) !important;
+  text-align: center; 
+  font-size: 35px;
+  width: 100%;
+}
+
+.modal-header .btn-close {
+  color: red !important; 
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.user-form input {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* UserForm.css */
+.text-black {
+  color: black; /* Establece el color del texto a negro */
+}
+
+/* Estilos adicionales para asegurar la consistencia y visibilidad de los elementos del formulario */
+.form-control, .form-label, button {
+  color: black; /* Asegura que el texto en los inputs, etiquetas y botones sea negro */
+}
+
+button {
+  background-color: #007bff; /* Color de fondo azul para los botones, si es necesario */
+  border-color: #007bff; /* Borde del mismo color que el fondo */
+}
+
+button:hover {
+  background-color: #166370; /* Color más oscuro en hover para los botones */
+  border-color: #0056b3;
+}

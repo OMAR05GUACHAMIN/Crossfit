@@ -1,0 +1,44 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/gym-background.jpg'); /* Asegúrate de que la imagen esté en public/images */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .home-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-content button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #00ADEF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .home-content button:hover {
+    background-color: #007B8A;
+  }
+  

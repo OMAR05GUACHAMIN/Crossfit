@@ -1,0 +1,82 @@
+/* src/components/UserProfile.css */
+.user-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidenav {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.3s;
+  }
+  
+  .sidenav.collapsed {
+    width: 80px;
+  }
+  
+  .sidenav .top-section {
+    padding: 20px;
+  }
+  
+  .sidenav .profile-image {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .sidenav .toggle-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .sidenav .menu-items {
+    flex-grow: 1;
+  }
+  
+  .sidenav .menu-items a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidenav .menu-items a:hover {
+    background-color: #575757;
+  }
+  
+  .sidenav .menu-items i {
+    margin-right: 10px;
+  }
+  
+  .sidenav .logout-section {
+    padding: 20px;
+  }
+  
+  .sidenav .logout-section .logout-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+
+  
+  .profile-header {
+    margin-bottom: 20px;
+  }
+  
+  .profile-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(231, 227, 227, 0.1);
+  }
+  

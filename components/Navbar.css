@@ -1,0 +1,111 @@
+/* src/components/Navbar.css */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: width 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidenav.collapsed {
+    width: 80px;
+}
+
+.sidenav a,
+.sidenav button {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.sidenav a i,
+.sidenav button i {
+    margin-right: 10px;
+}
+
+.sidenav.collapsed a i,
+.sidenav.collapsed button i {
+    margin-right: 0;
+}
+
+.sidenav.collapsed a span,
+.sidenav.collapsed button span {
+    display: none;
+}
+
+.sidenav a:hover,
+.sidenav button:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .toggle-btn {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.sidenav .top-section {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-items {
+    flex-grow: 1;
+}
+
+.logout-section {
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-button i {
+    margin-right: 10px;
+}
+
+.logout-button:hover {
+    background-color: #c62828;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}

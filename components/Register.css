@@ -1,0 +1,55 @@
+.register-container {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #34495e;
+}
+
+.register-card {
+  width: 150%;
+  max-width: 900px;
+  padding: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: none;
+}
+
+.profile-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+  color: #000000;
+}
+
+.text-danger {
+  color: #e74c3c;
+}
+
+.back-to-login a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.form-label {
+  color: #000000;
+}
+
+.form-control {
+  background-color: #fcfcfc;
+  border: 1px solid #798a8b;
+  color: #000000;
+}
+
+.form-control::placeholder {
+  color: #95a5a6;
+}

@@ -1,0 +1,88 @@
+.pay-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.pay-container h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center; /* Centrar texto en la tabla */
+}
+
+.btn-success, .btn-info, .btn-warning, .btn-danger {
+    margin-right: 5px; /* Espacio entre botones */
+}
+
+.input-group {
+    max-width: 400px; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto 20px; /* Centra el grupo y añade margen inferior */
+}
+
+/* Ajuste del tamaño del icono de búsqueda */
+.input-group-text {
+    padding: 8px 8px 8px 8px; /* Ajustar el padding según sea necesario */
+    font-size: 15px; /* Ajustar el tamaño de la fuente según sea necesario */
+    display:flow-root;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem 0 0 0.25rem; /* Asegura bordes redondeados en la izquierda */
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* Ajuste del campo de búsqueda para que esté alineado con el icono */
+  .form-control {
+    height: 38px; /* Asegura que la altura sea consistente */
+    border-radius: 0 0.25rem 0.25rem 0; /* Asegura bordes redondeados en la derecha */
+  }
+  
+  .input-group .form-control {
+    height: calc(1px + 1px); /* Asegura que la altura sea consistente */
+    border-radius: 0 1.25rem 1.25rem 0; /* Asegura bordes redondeados en la derecha */
+    font-size: 1em; /* Ajustar el tamaño del texto */
+    padding-left: 1rem; /* Añade un padding a la izquierda para separar el texto del icono */
+  }
+  
+
+/* Pay.css */
+
+
+.pay-container {
+    padding: 20px;
+  }
+  
+  .pay-modal .modal-dialog {
+    max-width: 60%;
+  }
+  
+  .table-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .table-actions button,
+  .table-actions input[type="file"] {
+    margin-right: 20px;
+  }
+  
+  .table-actions input[type="file"] {
+    flex-grow: 10;
+  }
+  
+  .table-actions .file-label {
+    flex-grow: 1;
+  }
+
+  
+  
